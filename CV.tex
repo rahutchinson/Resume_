@@ -1,0 +1,343 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% SIMPLE-RESUME-CV
+%% <https://github.com/zachscrivena/simple-resume-cv>
+%% This is free and unencumbered software released into the
+%% public domain; see <http://unlicense.org> for details.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% INSTRUCTIONS FOR COMPILING THIS DOCUMENT ("CV.tex")
+%% TEX ---(XeLaTeX)---> PDF:
+%%
+%% Method 1: Use latexmk for fully automated document generation:
+%%   latexmk -xelatex "CV.tex"
+%%   (add the -pvc switch to automatically recompile on changes)
+%%
+%% Method 2: Use XeLaTeX directly:
+%%   xelatex "CV.tex"
+%%   (run multiple times to resolve cross-references if needed)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper,10pt,oneside]{article}
+%\documentclass[letterpaper,10pt,oneside]{article}
+
+% Do not stop on errors during compilation.
+\nonstopmode
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% PREAMBLE.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{CV-Preamble.tex}
+
+% CV Info (to be customized).
+\newcommand{\CVTitle}{Ryan Hutchinson}
+\newcommand{\CVNote}{}
+
+% PDF settings and properties.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ACTUAL DOCUMENT.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%%
+% TITLE BLOCK %
+%%%%%%%%%%%%%%%
+
+\title{Ryan Hutchinson}
+
+\begin{subtitle}
+
+{8235 Redchurch Drive, Spring, Texas 77379, USA}
+\par
+\href{mailto:ryan.a.hutchinson@ttu.edu}
+{ryan.a.hutchinson@ttu.edu}
+\,\BulletSymbol\,
++1\,(713)\,367-6863
+\,\BulletSymbol\,
+\href{https://www.linkedin.com/in/ryan-hutchinson-94452a7b}{\underline{LinkedIn Profile}}
+\,\BulletSymbol\,
+\href{https://github.com/rahutchinson}{\underline{GitHub}}
+\end{subtitle}
+
+\begin{body}
+
+%%%%%%%%%%%%%%%
+%% EDUCATION %%
+%%%%%%%%%%%%%%%
+%\section
+%{Objective}
+%{Objective}
+%{PDF:Objective}
+%\SmallEntryGap
+%textbf{To obtain an Internship for the Summer of 2016}
+
+
+\section
+{Education}
+{Education}
+{PDF:Education}
+
+
+{\textbf{Texas Tech University}},
+Lubbock, Texas
+
+\SmallEntryGap
+Bachelor of Science in Computer Science
+\hfill
+\DatestampYMD{}{}{}
+\textbf{\DatestampYMD{2018}{05}{15}}
+\begin{detail}
+\Item
+Minors: Mechanical Engineering and Math
+\Item
+Cumulative GPA: \textbf{3.652} / 4.0
+\Item
+Credit Hours: 89
+\end{detail}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%% RESEARCH EXPERIENCE %%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section
+{Experience}
+{Experience}
+{PDF:Experience}
+{\textbf{L3 Technologies}},
+Greenville, Texas
+\par
+\Item
+Interactive Research and Development CO-OP Student
+\hfill
+\DatestampYMD{2015}{05}{15} --
+\DatestampYMD{2015}{08}{15}
+\begin{detail}
+\BulletItem
+Design, Developed, and Implemented several buisness unit enhancement applications
+\end{detail}
+\SmallEntryGap
+\SmallEntryGap
+
+{\textbf{NextEra Energy Resources}},
+Houston, Texas
+\par
+\Item
+Information Management Internship @ Gexa Energy
+\hfill
+\DatestampYMD{2015}{05}{15} --
+\DatestampYMD{2015}{08}{15}
+\begin{detail}
+\BulletItem
+Design, Developed, and Implemented several buisness unit enhancement applications
+\BulletItem
+Using Python for quick easy development
+\BulletItem
+Identified certain software on all assets on the network and returned data for anlysis
+\BulletItem
+Integrated with a testing schedule to meet deadlines
+\end{detail}
+\SmallEntryGap
+\SmallEntryGap
+
+{\textbf{Whitacre College of Engineering}},
+Lubbock, Texas
+\par
+\Item
+Job Fair Software Update
+\hfill
+\DatestampYMD{2015}{05}{15} --
+\DatestampYMD{2015}{09}{15}
+\begin{detail}
+\BulletItem
+Moving Job Fair Sign In and Analytics to Web
+\BulletItem
+C\# Web Application -- \href{https://github.com/rahutchinson/COEJOBFAIR}{\underline{Project - Github}}
+\BulletItem
+Timeline: Completion in one semester
+\end{detail}
+\SmallEntryGap
+\SmallEntryGap
+
+{\textbf{ERCOT}},
+Taylor, Texas
+\par
+\Item
+Information Technology Internship
+\hfill
+\DatestampYMD{2015}{05}{15} --
+\DatestampYMD{2015}{08}{15}
+\begin{detail}
+\BulletItem
+Design, Developed, and Implemented a Web application
+\BulletItem
+Java EE, Maven, JBoss Framework
+\BulletItem
+Integration with Agile
+\end{detail}
+\SmallEntryGap
+\SmallEntryGap
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Research}
+{Research}
+{PDF:Research}
+
+{\textbf{NASA ISS Water Mass Reduction}},
+Texas Tech University
+\par
+\Item
+Undergraduate Research Student Assistant
+\hfill
+\DatestampYMD{2016}{1}{15} --
+\DatestampYMD{2016}{2}{15}
+\begin{detail}
+
+\BulletItem
+Expanded on current program to allow more pumps and automation
+\BulletItem
+Followed agile methodolgy with strict testing schedule
+\BulletItem
+XAML Interface --  \href{https://github.com/rahutchinson/Pump_Control}{\underline{Project - GitHub}}
+\end{detail}
+\SmallEntryGap
+{\textbf{Selenium Coated RO Filter Membrane}},
+Lubbock, Texas
+\par
+\Item
+Undergraduate Research Student Assistant
+\Item
+Project:
+NSF Research Grant: Enviromental Engineering
+\hfill
+\DatestampYMD{2014}{10}{15} --
+\DatestampYMD{2015}{02}{15}
+\begin{detail}
+\BulletItem
+Independently developed and implemented data acquisition system
+\BulletItem
+Researched better data acquisitions techniques
+\BulletItem
+Developed time saving programs for file manipulation
+\end{detail}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section
+{Involvement}
+{Involvement}
+{PDF:Involvement}
+{\textbf{Texas Tech Engineering Ambassador,}  Engineering Opportunities Center}
+\par
+\Item
+Active Member
+\hfill
+\DatestampYMD{2015}{11}{30} --
+\DatestampYMD{2018}{12}{15}
+\begin{detail}
+\BulletItem
+Speak with prospective students and families 
+\BulletItem
+Interact with civic groups and high school students
+\BulletItem
+Give tours of the engineering facilities
+\BulletItem
+Outreach to local middle schools and high schools
+\end{detail}
+\SmallEntryGap
+{\textbf{TECHniques Center}, Texas Tech Student Disabilties}
+
+\par
+\Item
+Student Tutor
+\hfill
+\DatestampYMD{2016}{08}{15} --
+\DatestampYMD{2016}{12}{15}
+\begin{detail}
+\BulletItem Tutor students diagnosed with disablities
+\BulletItem Certified College Reading and Learning Association (CRLA)
+\end{detail}
+\SmallEntryGap
+{\textbf{Formula SAE}, Red Raider Racing}
+\par
+\Item
+Electronics and Ergonomics Lead
+\hfill
+\DatestampYMD{2014}{08}{15} --
+\DatestampYMD{2016}{09}{15}
+\begin{detail}
+\BulletItem
+Designed and Implemented 6-Axis Accelerometer data Logger -- \href{https://github.com/rahutchinson/FDRM64-6Axis-2-SDCARD}{\underline{Project - GitHub}}
+\BulletItem
+ReDesigned Website for focus on Sponsor use -- \href{https://github.com/rahutchinson/FSAE_Site}{\underline{Project - GitHub}}
+\end{detail}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ACADEMIC HONORS & AWARDS %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section
+{Academic Awards}
+{Academic Awards}
+{PDF:AcademicAwards}
+{\textbf{Dean's List}},
+\hfill
+\DatestampY{2014} --
+\DatestampY{2016}
+\begin{detail}
+\Item
+Whitacre College of Engineering
+\Item
+For attaining a semester GPA of at least 3.75.
+\end{detail}
+
+
+{\textbf{Presidential Scholarship}},
+Texas Tech University
+\hfill
+\DatestampYMD{2014}{08}{15}
+\begin{detail}
+
+\end{detail}
+
+
+%%%%%%%%%%%%
+%% SKILLS %%
+%%%%%%%%%%%%
+
+%\section
+%{Skills}
+%{Skills}
+%{PDF:Skills}
+%{\LaTeX},
+%C,C\#,C++,
+%Java EE,
+%Agile,
+%Python,
+%GUI,
+%Office Tool Suite,
+%Documented Leadership skills,
+%Recognized Communication skills
+
+
+%%%%%%%%%%%%%%%
+%% INTERESTS %%
+%%%%%%%%%%%%%%%
+
+\section
+{Interests}
+{Interests}
+{PDF:Interests}
+
+Flight, Speed, and Motorsports
+
+\end{body}
+\end{document}
